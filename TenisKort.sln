@@ -1,0 +1,90 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TenisKort.Dal", "TenisKort.Dal\TenisKort.Dal.csproj", "{D924BF10-77E6-4A72-8DC0-1978FD02AC1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TenisKort.Bll", "TenisKort.Bll\TenisKort.Bll.csproj", "{0EE2C518-8CEE-4B53-9C39-2F45464FDAF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TenisKort.AspNetMvcUl", "TenisKort.AspNetMvcUl\TenisKort.AspNetMvcUl.csproj", "{F40E8C64-67E1-4FD3-9647-7749BF6DE8A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TenisKort.AspNetMvcUl.Tests", "TenisKort.AspNetMvcUl.Tests\TenisKort.AspNetMvcUl.Tests.csproj", "{4891F119-4605-4571-AA69-687D3CDF9BC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TenisKort.Entity", "TenisKort.Entity\TenisKort.Entity.csproj", "{55DC3EE0-BF27-4561-886B-850FC481F214}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TenisKort.Interfaces", "TenisKort.Interfaces\TenisKort.Interfaces.csproj", "{16327AB5-FA02-4362-B47C-8C827D90E713}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TenisKort.WcfServiceLibrary", "TenisKort.WcfServiceLibrary\TenisKort.WcfServiceLibrary.csproj", "{6E4AB0D2-4501-4820-B340-886FB8B0E3D0}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "TenisKort.WcfIISHost", "TenisKort.WcfIISHost\", "{0C7AB994-CFFD-460E-8F9D-3A5F5DCF1D60}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_4241"
+		Debug.AspNetCompiler.PhysicalPath = "TenisKort.WcfIISHost\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_4241\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_4241"
+		Release.AspNetCompiler.PhysicalPath = "TenisKort.WcfIISHost\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_4241\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "4241"
+		SlnRelativePath = "TenisKort.WcfIISHost\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TenisKort.AspNetMvcWebApi", "TenisKort.AspNetMvcWebApi\TenisKort.AspNetMvcWebApi.csproj", "{98E091B9-28EB-4A71-BB09-24BE39AEB1FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D924BF10-77E6-4A72-8DC0-1978FD02AC1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D924BF10-77E6-4A72-8DC0-1978FD02AC1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D924BF10-77E6-4A72-8DC0-1978FD02AC1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D924BF10-77E6-4A72-8DC0-1978FD02AC1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EE2C518-8CEE-4B53-9C39-2F45464FDAF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EE2C518-8CEE-4B53-9C39-2F45464FDAF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EE2C518-8CEE-4B53-9C39-2F45464FDAF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EE2C518-8CEE-4B53-9C39-2F45464FDAF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F40E8C64-67E1-4FD3-9647-7749BF6DE8A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F40E8C64-67E1-4FD3-9647-7749BF6DE8A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F40E8C64-67E1-4FD3-9647-7749BF6DE8A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F40E8C64-67E1-4FD3-9647-7749BF6DE8A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4891F119-4605-4571-AA69-687D3CDF9BC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4891F119-4605-4571-AA69-687D3CDF9BC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4891F119-4605-4571-AA69-687D3CDF9BC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4891F119-4605-4571-AA69-687D3CDF9BC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55DC3EE0-BF27-4561-886B-850FC481F214}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55DC3EE0-BF27-4561-886B-850FC481F214}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55DC3EE0-BF27-4561-886B-850FC481F214}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55DC3EE0-BF27-4561-886B-850FC481F214}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16327AB5-FA02-4362-B47C-8C827D90E713}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16327AB5-FA02-4362-B47C-8C827D90E713}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16327AB5-FA02-4362-B47C-8C827D90E713}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16327AB5-FA02-4362-B47C-8C827D90E713}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E4AB0D2-4501-4820-B340-886FB8B0E3D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E4AB0D2-4501-4820-B340-886FB8B0E3D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E4AB0D2-4501-4820-B340-886FB8B0E3D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E4AB0D2-4501-4820-B340-886FB8B0E3D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C7AB994-CFFD-460E-8F9D-3A5F5DCF1D60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C7AB994-CFFD-460E-8F9D-3A5F5DCF1D60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C7AB994-CFFD-460E-8F9D-3A5F5DCF1D60}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C7AB994-CFFD-460E-8F9D-3A5F5DCF1D60}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{98E091B9-28EB-4A71-BB09-24BE39AEB1FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98E091B9-28EB-4A71-BB09-24BE39AEB1FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98E091B9-28EB-4A71-BB09-24BE39AEB1FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98E091B9-28EB-4A71-BB09-24BE39AEB1FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
